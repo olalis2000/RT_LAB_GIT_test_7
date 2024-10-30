@@ -1,0 +1,397 @@
+2024-10-30 12h13m39s:=======================================
+2024-10-30 12h13m39s: CONTROLLER START 
+2024-10-30 12h13m39s:=======================================
+2024-10-30 12h13m39s: 
+2024-10-30 12h13m39s:Using default NodeSessions limit.  Limit set to 1024.
+2024-10-30 12h13m39s: >>>> SessionRoot::initialize port 0
+2024-10-30 12h13m39s:Http Server initialization failed
+2024-10-30 12h13m39s:Begin to register on OpalRoot
+2024-10-30 12h13m39s:NetworkInterfaceManager: initializing...
+2024-10-30 12h13m39s:Update server name to : 10.168.10.106:25255
+2024-10-30 12h13m39s:Http Server initialization succeed
+2024-10-30 12h13m39s:Registered on OpalRoot, port 25255
+2024-10-30 12h13m39s:Loading services from "C:/OPAL-RT/RT-LAB/v2024.3.2.48/common/bin/x64/Services"
+2024-10-30 12h13m39s:  Plugin "DataAcquisition": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "DriverIdentification": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "Dummy": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "ePHASORSIM": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "HEI": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "IEC104": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "Matlab": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "MODBUS": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "Parameters": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "Pickering-41-752": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "RFM": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "SimulationSetup": services informations retrieved
+2024-10-30 12h13m39s:  Plugin "Web": services informations retrieved
+2024-10-30 12h13m39s:Root initialized: 10.168.10.106:25255/resources/root
+2024-10-30 12h13m39s:Service Web/Server found
+2024-10-30 12h13m39s:Address inserted in cache : 10.168.10.106:25255 => 1
+2024-10-30 12h13m39s:Initialization done
+2024-10-30 12h13m39s:[UniconComm] curl_global_init done
+2024-10-30 12h13m39s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 11240) ------
+2024-10-30 12h13m39s:Controller.cppnew client: 9268
+2024-10-30 12h13m39s:CClient.cppCreating new client ID: 14476
+2024-10-30 12h13m39s:CClient.cppclientThread started with port:1200
+2024-10-30 12h13m39s:Instance ID = 0
+2024-10-30 12h13m39s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 3416
+2024-10-30 12h13m39s:CTarget.cppStarting observer for target 201
+2024-10-30 12h13m39s:CTarget.cppStarting observer for target 157
+2024-10-30 12h13m39s:CTarget.cppStarting observer for target 81
+2024-10-30 12h13m39s:CTarget.cppStarting observer for target 98
+2024-10-30 12h13m39s:Service SimulationSetup/SimulationSetup found
+2024-10-30 12h13m39s:Service DriverIdentification/DriverIdentification found
+2024-10-30 12h13m39s:Address inserted in cache : 10.168.11.201:2525 => 1
+2024-10-30 12h13m39s:Address inserted in cache : 10.168.11.157:2525 => 1
+2024-10-30 12h13m39s:OpalBoards_GUI library loaded
+2024-10-30 12h13m39s:Found IOConfigItem type OpalBoards_GUI::RemoteBoardConfiguration (Object); Setting list capacity to 50
+2024-10-30 12h13m39s:Node '10.168.10.106:25255/resources/root/proxy/F404F9EC-3D03-422E-926A-E394BE33996D/A4F51266-E89C-458D-A6F7-74805C4A7906' is alive, proceed registerNode.
+2024-10-30 12h13m39s:Address inserted in cache : 10.168.11.81:2525 => 1
+2024-10-30 12h13m39s:Address inserted in cache : 10.168.11.98:2525 => 1
+2024-10-30 12h13m40s:Found IOConfigItem type OpalBoards_GUI::RemoteBoardConfiguration (Object); Setting list capacity to 50
+2024-10-30 12h13m40s:DataLogger library loaded
+2024-10-30 12h13m40s:DataLogger: fillPropertyTree
+2024-10-30 12h13m40s:Node '10.168.10.106:25255/resources/root/proxy/F404F9EC-3D03-422E-926A-E394BE33996D/724F19F0-1C18-4A78-9CEC-90F9244A2FD9' is alive, proceed registerNode.
+2024-10-30 12h13m40s:DataLogger: fillPropertyTree
+2024-10-30 12h13m40s: start generating JSON IO configuration : io_name=OPAL-RT Board ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json
+2024-10-30 12h13m40s: Saved '16' datapoints in 2.631ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json'
+2024-10-30 12h13m40s: start generating JSON IO configuration : io_name=RECORDER_Boost_and_Two_Level_Inverter_SM_eHS ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json
+2024-10-30 12h13m40s: Saved '2' datapoints in 2.0947ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json'
+2024-10-30 12h13m40s: start generating JSON IO configuration : io_name=OPAL-RT Board ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json
+2024-10-30 12h13m40s: Saved '16' datapoints in 2.871ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json'
+2024-10-30 12h13m40s: start generating JSON IO configuration : io_name=RECORDER_Boost_and_Two_Level_Inverter_SM_eHS ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json
+2024-10-30 12h13m40s: Saved '2' datapoints in 2.0305ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json'
+2024-10-30 12h13m40s:Archive.cppArchiveFileToString : will open C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx
+2024-10-30 12h13m40s:Archive.cppArchiveFileToString : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx opened
+2024-10-30 12h13m40s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2024-10-30 12h13m40s: Open - Loading parameters/signals for : Boost_and_Two_Level_Inverter
+2024-10-30 12h13m40s:Signal file 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.signal' does not exist.
+2024-10-30 12h13m40s:Parameter file 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.param' does not exist.
+2024-10-30 12h13m40s:[UniconComm][14476] call POST /projects/initialize
+2024-10-30 12h13m40s:Curl comm init (client 14476)
+2024-10-30 12h13m40s:Controller.cppnew client: 9268
+2024-10-30 12h13m40s:CClient.cppCreating new client ID: 2936
+2024-10-30 12h13m40s:CClient.cppclientThread started with port:2160
+2024-10-30 12h13m40s:Instance ID = 106
+2024-10-30 12h13m40s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 10916
+2024-10-30 12h13m40s:Controller.cppRemoving client: 2936
+2024-10-30 12h13m40s:Controller.cppSuccessful removal of client: 2936
+2024-10-30 12h13m40s:CClient.cpp  clientThread exit. ThreadParam = 0x35c4640
+2024-10-30 12h13m40s:Controller.cppnew client: 9268
+2024-10-30 12h13m40s:CClient.cppCreating new client ID: 8988
+2024-10-30 12h13m40s:CClient.cppclientThread started with port:2260
+2024-10-30 12h13m40s:Instance ID = 106
+2024-10-30 12h13m40s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 10916
+2024-10-30 12h13m40s:Parameter file 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.param' does not exist.
+2024-10-30 12h13m40s:Signal file 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.signal' does not exist.
+2024-10-30 12h13m40s:Signal file 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.signal' does not exist.
+2024-10-30 12h13m40s:Signal file 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.signal' does not exist.
+2024-10-30 12h13m40s:Controller.cppRemoving client: 8988
+2024-10-30 12h13m40s:Controller.cppSuccessful removal of client: 8988
+2024-10-30 12h13m40s:CClient.cpp  clientThread exit. ThreadParam = 0x35c4580
+2024-10-30 12h13m40s:[UniconComm] Initialization done in 209 ms. ProjectId=ddc3356b-2846-4fa6-85d9-6b64b0c37b3a; doSyncIOs=0
+2024-10-30 12h13m40s:[UniconComm] call GET project/:id/models
+2024-10-30 12h13m40s:[UniconComm][14476] call GET http://localhost:60780/api/projects/ddc3356b-2846-4fa6-85d9-6b64b0c37b3a/models
+2024-10-30 12h13m40s:Model Boost_and_Two_Level_Inverter has the modelId 4251155f-258d-4757-afba-1abcdd0e0de1
+2024-10-30 12h13m40s:Controller.cppnew client: 9268
+2024-10-30 12h13m40s:CClient.cppCreating new client ID: 11308
+2024-10-30 12h13m40s:CClient.cppclientThread started with port:2292
+2024-10-30 12h13m40s:Instance ID = 106
+2024-10-30 12h13m40s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 3416
+2024-10-30 12h13m40s:ControllerHandleRequest.cpppClient->notifCommSock = 2348
+2024-10-30 12h13m40s:ControllerHandleRequest.cpppClient->notifCommSock = 2352
+2024-10-30 12h13m40s:Archive.cppArchiveFileToString : will open C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx
+2024-10-30 12h13m40s:Archive.cppArchiveFileToString : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx opened
+2024-10-30 12h13m40s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1026
+2024-10-30 12h13m40s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1009
+2024-10-30 12h13m40s:[UniconComm] call POST /projects/{project_id}/sync
+2024-10-30 12h13m40s:[UniconComm][14476] call POST http://localhost:60780/api/projects/ddc3356b-2846-4fa6-85d9-6b64b0c37b3a/models/sync?deep=false&wait=true
+2024-10-30 12h13m40s:Controller.cppnew client: 9268
+2024-10-30 12h13m40s:CClient.cppCreating new client ID: 14404
+2024-10-30 12h13m40s:CClient.cppclientThread started with port:2276
+2024-10-30 12h13m40s:Instance ID = 106
+2024-10-30 12h13m40s:Controller.cppnew client: 9268
+2024-10-30 12h13m40s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 10916
+2024-10-30 12h13m40s:CClient.cppCreating new client ID: 10728
+2024-10-30 12h13m40s:CClient.cppclientThread started with port:2372
+2024-10-30 12h13m40s:Instance ID = 106
+2024-10-30 12h13m40s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 3416
+2024-10-30 12h13m40s:Controller.cppNOTIFICATION MSG IS: 
+2024-10-30 12h13m40s:Controller.cppNOTIFICATION MSG IS: 0
+2024-10-30 12h13m40s:Controller.cppRemoving client: 14404
+2024-10-30 12h13m40s:Controller.cppSuccessful removal of client: 14404
+2024-10-30 12h13m40s:CClient.cpp  clientThread exit. ThreadParam = 0x35c3e20
+2024-10-30 12h13m40s:Archive.cppArchiveFileToString : will open C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx
+2024-10-30 12h13m40s:Archive.cppArchiveFileToString : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx opened
+2024-10-30 12h13m41s:Archive.cppArchiveFileToString : will open C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx
+2024-10-30 12h13m41s:Archive.cppArchiveFileToString : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx opened
+2024-10-30 12h13m41s:update OPAL-RT Board
+2024-10-30 12h13m41s:Node '10.168.10.106:25255/resources/root/proxy/F404F9EC-3D03-422E-926A-E394BE33996D/A4F51266-E89C-458D-A6F7-74805C4A7906' is alive, proceed registerNode.
+2024-10-30 12h13m41s:update duration = 2.8968 ms
+2024-10-30 12h13m41s:update RECORDER_Boost_and_Two_Level_Inverter_SM_eHS
+2024-10-30 12h13m41s:DataLogger: fillPropertyTree
+2024-10-30 12h13m41s:Node '10.168.10.106:25255/resources/root/proxy/F404F9EC-3D03-422E-926A-E394BE33996D/724F19F0-1C18-4A78-9CEC-90F9244A2FD9' is alive, proceed registerNode.
+2024-10-30 12h13m41s:update duration = 3.7253 ms
+2024-10-30 12h13m41s:Address inserted in cache : 10.168.10.106:56166 => 1
+2024-10-30 12h13m43s:Controller.cppnew client: 9268
+2024-10-30 12h13m43s:CClient.cppCreating new client ID: 12284
+2024-10-30 12h13m43s:CClient.cppclientThread started with port:2656
+2024-10-30 12h13m43s:Instance ID = 106
+2024-10-30 12h13m43s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 3416
+2024-10-30 12h13m45s: start generating JSON IO configuration : io_name=OPAL-RT Board ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json
+2024-10-30 12h13m45s: Saved '16' datapoints in 3.4947ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json'
+2024-10-30 12h13m45s: start generating JSON IO configuration : io_name=RECORDER_Boost_and_Two_Level_Inverter_SM_eHS ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json
+2024-10-30 12h13m45s: Saved '2' datapoints in 1.8242ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json'
+2024-10-30 12h13m49s:Controller.cppnew client: 9268
+2024-10-30 12h13m49s:CClient.cppCreating new client ID: 12324
+2024-10-30 12h13m49s:CClient.cppclientThread started with port:2552
+2024-10-30 12h13m49s:Instance ID = 106
+2024-10-30 12h13m49s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 3416
+2024-10-30 12h13m49s:Controller.cppNOTIFICATION MSG IS: 2089389851634839588,2045
+2024-10-30 12h13m49s:>>> Using MatlabCOM as in-process server
+2024-10-30 12h13m49s:Service Matlab/CommandsProcessor found
+2024-10-30 12h14m14s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-10-30 12h14m14s:[UniconComm] call POST /models/{model_id}/sync
+2024-10-30 12h14m14s:[UniconComm][12324] call POST http://localhost:60780/api/models/4251155f-258d-4757-afba-1abcdd0e0de1/sync?deep=false&wait=true
+2024-10-30 12h14m14s:Curl comm init (client 12324)
+2024-10-30 12h14m14s:Controller.cppnew client: 9268
+2024-10-30 12h14m14s:CClient.cppCreating new client ID: 7596
+2024-10-30 12h14m14s:CClient.cppclientThread started with port:2732
+2024-10-30 12h14m14s:Instance ID = 106
+2024-10-30 12h14m14s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 10916
+2024-10-30 12h14m14s:Controller.cppNOTIFICATION MSG IS: 
+2024-10-30 12h14m14s:Controller.cppNOTIFICATION MSG IS: 0
+2024-10-30 12h14m14s:Controller.cppRemoving client: 7596
+2024-10-30 12h14m14s:Controller.cppSuccessful removal of client: 7596
+2024-10-30 12h14m14s:CClient.cpp  clientThread exit. ThreadParam = 0x352cc20
+2024-10-30 12h14m15s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-10-30 12h16m9s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h16m9s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2024-10-30 12h16m9s:Compile.cppcompileThread launched with id = 12540
+2024-10-30 12h16m9s:Address cache timeout. Reachability of 10.168.10.106:25255 Will be updated
+2024-10-30 12h16m9s:Address inserted in cache : 10.168.10.106:25255 => 1
+2024-10-30 12h16m9s:Controller.cppNOTIFICATION MSG IS: Preparing model
+2024-10-30 12h16m9s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h16m9s:CTargetConnectionOpalD.cppReqReply, error from OpalSend, sockfd -1, got -1 instead of 5
+2024-10-30 12h16m9s:WinUtils.cppCould not send command to Opal daemon. 
+Possible causes: 
+	- RT-LAB has not been installed on node with IP address 10.168.11.81, 
+	- the RT-LAB daemon is not running. (574)
+2024-10-30 12h16m9s:Address cache timeout. Reachability of 10.168.11.81:2525 Will be updated
+2024-10-30 12h16m9s:Address inserted in cache : 10.168.11.81:2525 => 1
+2024-10-30 12h16m9s:CIniFileCache.cppSaving Boost_and_Two_Level_Inverter.md5 because error was detected
+2024-10-30 12h16m9s:Controller.cppNOTIFICATION MSG IS: Model separation
+2024-10-30 12h16m9s:>>> Using MatlabCOM as in-process server
+2024-10-30 12h16m37s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-10-30 12h16m40s:Archive.cppArchiveFileToString : will open C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx
+2024-10-30 12h16m40s:Archive.cppArchiveFileToString : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx opened
+2024-10-30 12h17m43s:CModel.cppSubsystem binary not found: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs
+2024-10-30 12h17m43s:CModel.cppSubsystem binary not found: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs
+2024-10-30 12h17m43s:CIniFileCache.cppSaving Boost_and_Two_Level_Inverter.md0 because error was detected
+2024-10-30 12h17m43s:Controller.cppNOTIFICATION MSG IS: Code generation
+2024-10-30 12h17m43s:CIniFileCache.cppSaving boost_and_two_level__1_sm_ehs.sfp because error was detected
+2024-10-30 12h17m43s:Controller.cppNOTIFICATION MSG IS: Code generation: boost_and_two_level__1_sm_ehs
+2024-10-30 12h18m8s:Controller.cppNOTIFICATION MSG IS: Parameters database
+2024-10-30 12h18m8s:Controller.cppNOTIFICATION MSG IS: Signals database
+2024-10-30 12h18m8s:CIniFileCache.cppSaving boost_and_two_level__1_sm_ehs.map because error was detected
+2024-10-30 12h18m8s:CIniFileCache.cppSaving Boost_and_Two_Level_Inverter.probe because error was detected
+2024-10-30 12h18m8s:CIniFileCache.cppSaving Boost_and_Two_Level_Inverter.sig because error was detected
+2024-10-30 12h18m8s:OPAL-RT Board: Parsing Autoconnections file at C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/models/Boost_and_Two_Level_Inverter/OpalBoardsAddOns/Autoconnections/autoconnections.json
+2024-10-30 12h18m8s:Autoconnections: parameter 'autoconnections' was ignored during parsing.
+2024-10-30 12h18m8s:Autoconnections: parameter 'syncExchangerType' was ignored during parsing.
+2024-10-30 12h18m8s:Node '10.168.10.106:25255/resources/root/proxy/288512954935017472' is alive, proceed registerNode.
+2024-10-30 12h18m8s:restoreAllObjects DONE on 10.168.10.106:25255/resources/root/proxy/288512954935017472 in 2.1601 ms
+2024-10-30 12h18m8s:restoreAllObjects DONE on 10.168.10.106:25255/resources/root/proxy/F404F9EC-3D03-422E-926A-E394BE33996D/A4F51266-E89C-458D-A6F7-74805C4A7906 in 0.6952 ms
+2024-10-30 12h18m8s:Node '10.168.10.106:25255/resources/root/proxy/288512959229984768' is alive, proceed registerNode.
+2024-10-30 12h18m8s:Service SimulationSetup/AliasesService found
+2024-10-30 12h18m15s:MatlabCOM - getMethodId: dispatcher->GetIDsOfNames('Quit') failed with code 1726
+2024-10-30 12h18m15s:MatlabCOM::initializeClassCOM: CoInitialize function failed with code 262
+2024-10-30 12h18m16s:Address cache timeout. Reachability of 10.168.10.106:25255 Will be updated
+2024-10-30 12h18m16s:Address inserted in cache : 10.168.10.106:25255 => 1
+2024-10-30 12h18m16s: start generating JSON IO configuration : io_name=OPAL-RT Board ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json
+2024-10-30 12h18m16s: Saved '16' datapoints in 2.6463ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_OPAL-RT Board.json'
+2024-10-30 12h18m16s: start generating JSON IO configuration : io_name=RECORDER_Boost_and_Two_Level_Inverter_SM_eHS ; jsonConfigurationFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json
+2024-10-30 12h18m16s: Saved '2' datapoints in 2.2144ms into configuration file 'C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_7/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_Boost_and_Two_Level_Inverter_SM_eHS.json'
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Frequency
+2024-10-30 12h18m16s:Data point name doesn't begin with eHS. Abort automatic connexion for Duty cycle
+2024-10-30 12h18m16s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m16s:Controller.cppNOTIFICATION MSG IS: Source files validation
+2024-10-30 12h18m16s:Controller.cppNOTIFICATION MSG IS: File transfer
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:Controller.cppNOTIFICATION MSG IS: Code compilation
+2024-10-30 12h18m17s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m17s:Controller.cppNOTIFICATION MSG IS: Code compilation: boost_and_two_level__1_sm_ehs
+2024-10-30 12h18m19s:Controller.cppNOTIFICATION MSG IS: File retrieval
+2024-10-30 12h18m19s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m19s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m19s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m19s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m19s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m19s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.168.11.81
+2024-10-30 12h18m19s:Controller.cppNOTIFICATION MSG IS: End of build process
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx: file access date is 10/30/24 12:16:04 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter_param.m: file access date is 10/17/24 16:26:46 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\boost_and_two_level__1_sm_ehs.slx: file access date is 10/30/24 12:17:33 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\rtlab_rtmodel.tlc: file access date is 08/13/24 11:24:06 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\rtlab_rtmodel.tmf: file access date is 08/13/24 11:24:06 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.param: file access date is 10/30/24 12:18:08 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.signal: file access date is 10/30/24 12:18:08 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Opcommon\Boost_and_Two_Level_Inverter.subsys: file access date is 10/30/24 12:17:39 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\settings.json: file access date is 10/30/24 12:18:16 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs.c: file access date is 10/30/24 12:18:16 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs_data.c: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs_offsets.c: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs_private.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs_types.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtGetInf.h: file access date is 10/30/24 12:17:59 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtGetNaN.h: file access date is 10/30/24 12:17:59 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtGetInf.c: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtGetNaN.c: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs.mk: file access date is 10/30/24 12:18:04 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rt_nonfinite.c: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rt_defines.h: file access date is 10/30/24 12:17:59 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rt_nonfinite.h: file access date is 10/30/24 12:17:59 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\zero_crossing_types.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\builtin_typeid_types.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\multiword_types.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtwtypes.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtmodel.h: file access date is 10/30/24 12:18:01 and last access was UNSET
+2024-10-30 12h18m19s:CCompanionFile.cppMD5 needed for C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\OpalSnapshotUtil.c: file access date is 10/30/24 12:18:08 and last access was UNSET
+2024-10-30 12h18m20s:CCompanionFile.cppMD5 needed for C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\model_main.c: file access date is 08/13/24 11:24:06 and last access was UNSET
+2024-10-30 12h18m20s:DevEnvNode is '81' (target platform = 5)
+2024-10-30 12h18m20s:[UniconComm] call POST /models/{model_id}/sync
+2024-10-30 12h18m20s:[UniconComm][12540] call POST http://localhost:60780/api/models/4251155f-258d-4757-afba-1abcdd0e0de1/sync?deep=true&wait=true
+2024-10-30 12h18m20s:Controller.cppnew client: 9268
+2024-10-30 12h18m20s:CClient.cppCreating new client ID: 9712
+2024-10-30 12h18m20s:CClient.cppclientThread started with port:4608
+2024-10-30 12h18m20s:Instance ID = 106
+2024-10-30 12h18m20s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 10916
+2024-10-30 12h18m20s:Controller.cppNOTIFICATION MSG IS: 
+2024-10-30 12h18m20s:Controller.cppNOTIFICATION MSG IS: 0
+2024-10-30 12h18m20s:Controller.cppRemoving client: 9712
+2024-10-30 12h18m20s:Controller.cppSuccessful removal of client: 9712
+2024-10-30 12h18m20s:CClient.cpp  clientThread exit. ThreadParam = 0x51e9d60
+2024-10-30 12h18m20s:Controller.cppnew client: 9268
+2024-10-30 12h18m20s:CClient.cppCreating new client ID: 12656
+2024-10-30 12h18m20s:CClient.cppclientThread started with port:4472
+2024-10-30 12h18m20s:Instance ID = 106
+2024-10-30 12h18m20s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 10916
+2024-10-30 12h18m20s:Controller.cppRemoving client: 12656
+2024-10-30 12h18m20s:Controller.cppSuccessful removal of client: 12656
+2024-10-30 12h18m20s:CClient.cpp  clientThread exit. ThreadParam = 0x35ef4b0
+2024-10-30 12h18m20s:Model Boost_and_Two_Level_Inverter has the modelId 4251155f-258d-4757-afba-1abcdd0e0de1
+2024-10-30 12h18m20s:[UniconComm] call GET models/:id/levels/tree
+2024-10-30 12h18m20s:[UniconComm][12540] call GET http://localhost:60780/api/models/4251155f-258d-4757-afba-1abcdd0e0de1/levels/tree
+2024-10-30 12h18m20s:Set LevelId 0aa9474f-3e5f-4a99-a2cb-4c816a26849b on subsystem SM_eHS belonging to model Boost_and_Two_Level_Inverter (4251155f-258d-4757-afba-1abcdd0e0de1)
+2024-10-30 12h18m20s:CModel.cppSubsystme 'SM_eHS' assigned to target '81'
+2024-10-30 12h18m20s:Controller.cppNOTIFICATION MSG IS: MODEL_LOADABLE
+2024-10-30 12h18m20s:[UniconComm] call POST /models/{model_id}/sync
+2024-10-30 12h18m20s:[UniconComm][12540] call POST http://localhost:60780/api/models/4251155f-258d-4757-afba-1abcdd0e0de1/sync?deep=false&wait=true
+2024-10-30 12h18m20s:Controller.cppnew client: 9268
+2024-10-30 12h18m20s:CClient.cppCreating new client ID: 9904
+2024-10-30 12h18m20s:CClient.cppclientThread started with port:4448
+2024-10-30 12h18m20s:Instance ID = 106
+2024-10-30 12h18m20s:Controller.cppnew client: 9268
+2024-10-30 12h18m20s:CClient.cppCreating new client ID: 13104
+2024-10-30 12h18m20s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 10916
+2024-10-30 12h18m20s:CClient.cppclientThread started with port:4552
+2024-10-30 12h18m20s:Instance ID = 106
+2024-10-30 12h18m20s:CClient.cppClient connected: name "ORTG", computer "DESKTOP-PGC7BAK", ip "127.0.0.1", pid 3416
+2024-10-30 12h18m20s:Controller.cppNOTIFICATION MSG IS: 
+2024-10-30 12h18m20s:Controller.cppNOTIFICATION MSG IS: 0
+2024-10-30 12h18m20s:Controller.cppRemoving client: 9904
+2024-10-30 12h18m20s:Controller.cppSuccessful removal of client: 9904
+2024-10-30 12h18m20s:CClient.cpp  clientThread exit. ThreadParam = 0x35ef630
+2024-10-30 12h18m21s:Compile.cppCompilation completed successfully.
+2024-10-30 12h18m21s:Compile.cppCompilation Thread closed.
+2024-10-30 12h18m21s:Archive.cppArchiveFileToString : will open C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx
+2024-10-30 12h18m21s:Archive.cppArchiveFileToString : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx opened
+2024-10-30 12h19m1s:Address cache timeout. Reachability of 10.168.10.106:56166 Will be updated
+2024-10-30 12h19m1s:Address inserted in cache : 10.168.10.106:56166 => 1
+2024-10-30 12h19m1s:Controller.cppRemoving client: 11308
+2024-10-30 12h19m1s:Controller.cppSuccessful removal of client: 11308
+2024-10-30 12h19m1s:CClient.cpp  clientThread exit. ThreadParam = 0x35c3ce0
+2024-10-30 12h19m1s:Controller.cppRemoving client: 14476
+2024-10-30 12h19m1s:Curl comm cleanup (client 14476)
+2024-10-30 12h19m1s:Controller.cppSuccessful removal of client: 14476
+2024-10-30 12h19m1s:CClient.cpp  clientThread exit. ThreadParam = 0x34ed720
+2024-10-30 12h19m1s:Controller.cppRemoving client: 10728
+2024-10-30 12h19m1s:Controller.cppSuccessful removal of client: 10728
+2024-10-30 12h19m1s:CClient.cpp  clientThread exit. ThreadParam = 0x35efcd0
+2024-10-30 12h19m1s:Controller.cppRemoving client: 12284
+2024-10-30 12h19m1s:Controller.cppSuccessful removal of client: 12284
+2024-10-30 12h19m1s:CClient.cpp  clientThread exit. ThreadParam = 0x35c3de0
+2024-10-30 12h19m1s:Controller.cppRemoving client: 12324
+2024-10-30 12h19m2s:Curl comm cleanup (client 12324)
+2024-10-30 12h19m2s:Controller.cppSuccessful removal of client: 12324
+2024-10-30 12h19m2s:CClient.cpp  clientThread exit. ThreadParam = 0x3563070
+2024-10-30 12h19m2s:Controller.cppRemoving client: 13104
+2024-10-30 12h19m2s:GetEmbeddedModel() - Instance ID = 0
+2024-10-30 12h19m2s:ControllerExit.cppterminateControlCommThread, call OpalInitializeSend with ipAddr 10.168.10.106:47389
+2024-10-30 12h19m2s:CTarget.cppStopping observer for target 201
+2024-10-30 12h19m2s:Controller.cppSuccessful removal of client: 13104
+2024-10-30 12h19m2s:CTarget.cppStopping observer for target 157
+2024-10-30 12h19m2s:CClient.cpp  clientThread exit. ThreadParam = 0x35ef570
+2024-10-30 12h19m2s:CTarget.cppStopping observer for target 81
+2024-10-30 12h19m2s:CTarget.cppStopping observer for target 98
+2024-10-30 12h19m2s:ControllerExit.cppEntering CloseSubControllers
+2024-10-30 12h19m2s:Stopping OpalNode watchdog.
+2024-10-30 12h19m2s:[UniconComm] curl_global_cleanup done

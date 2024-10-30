@@ -1,0 +1,38 @@
+[General]
+ATT_VERSION=1
+[Size]
+nbParameters=30
+nbValues=30
+nbVariables=3
+nbParamsVar=3
+[Parameter]
+0=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Input/Three-phase Sine Wave|Phase|Inv_PWM_Phases|RVector|1|3|0|0.0|-2.0943951023931953|2.0943951023931953|1|3|60:5495|
+3=Boost_and_Two_Level_Inverter/SM_eHS/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Adder_Gain|Gain| |Scalar|1|1|1|2.0E-5|1|1|60:5470|
+4=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Ia/In1|Value| |Scalar|1|1|4|0.0|1|1|60:5531:173:356:145|
+5=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Ib/In1|Value| |Scalar|1|1|5|0.0|1|1|60:5531:173:358:145|
+6=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Ic/In1|Value| |Scalar|1|1|6|0.0|1|1|60:5531:173:360:145|
+7=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Va/In1|Value| |Scalar|1|1|7|0.0|1|1|60:5531:173:362:145|
+8=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Vb/In1|Value| |Scalar|1|1|8|0.0|1|1|60:5531:173:364:145|
+9=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Vc/In1|Value| |Scalar|1|1|9|0.0|1|1|60:5531:173:366:145|
+10=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_boost_I/In1|Value| |Scalar|1|1|10|0.0|1|1|60:5531:173:368:145|
+11=Boost_and_Two_Level_Inverter/SM_eHS/eHS1/eHSDrivers/OpInput_boost_V/In1|Value| |Scalar|1|1|11|0.0|1|1|60:5531:173:370:145|
+12=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Control/Control/Saturation|UpperLimit| |Scalar|1|1|18|0.95|1|1|60:5306|
+13=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Control/Control/Saturation|LowerLimit| |Scalar|1|1|19|0.05|1|1|60:5306|
+14=Boost_and_Two_Level_Inverter/SM_eHS/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Constant3|Value| |Scalar|1|1|20|6.2831853071795862|1|1|60:5472|
+15=Boost_and_Two_Level_Inverter/SM_eHS/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Memory|InitialCondition| |Scalar|1|1|21|0.0|1|1|60:5473|
+16=Boost_and_Two_Level_Inverter/SM_eHS/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Switch|Threshold| |Scalar|1|1|22|0.0|1|1|60:5474|
+17=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Control/Control/Three-phase Sine Wave|Amplitude| |Scalar|1|1|23|1.0|1|1|60:5456|
+18=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Control/Control/Three-phase Sine Wave|Bias| |Scalar|1|1|24|0.0|1|1|60:5456|
+19=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Control/Control/Three-phase Sine Wave|Frequency| |Scalar|1|1|25|1.0|1|1|60:5456|
+20=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Control/Control/Gain|Gain| |Scalar|1|1|26|0.5|1|1|60:5303|
+21=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Control/Control/Constant|Value| |Scalar|1|1|27|0.5|1|1|60:5302|
+22=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Input/Three-phase Sine Wave|Amplitude| |Scalar|1|1|28|1.0|1|1|60:5495|
+23=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Input/Three-phase Sine Wave|Bias| |Scalar|1|1|29|0.0|1|1|60:5495|
+24=Boost_and_Two_Level_Inverter/SM_eHS/Circuit_Input/Three-phase Sine Wave|Frequency| |Scalar|1|1|30|1.0|1|1|60:5495|
+25=Boost_and_Two_Level_Inverter/SM_eHS/g1|Value| |Scalar|1|1|31|0.0|1|1|60:5530|
+26=Boost_and_Two_Level_Inverter/SM_eHS/Acquisition Trigger/Constant|Value| |Scalar|1|1|32|0.5|1|1|60:5534|
+27=Boost_and_Two_Level_Inverter/SM_eHS/Acquisition Trigger/Step|Time| |Scalar|1|1|33|0.50362|1|1|60:5536|
+28=Boost_and_Two_Level_Inverter/SM_eHS/Acquisition Trigger/Step|Before| |Scalar|1|1|34|0.0|1|1|60:5536|
+29=Boost_and_Two_Level_Inverter/SM_eHS/Acquisition Trigger/Step|After| |Scalar|1|1|35|1.0|1|1|60:5536|
+[Variable]
+0=Inv_PWM_Phases|1|0|

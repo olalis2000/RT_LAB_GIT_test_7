@@ -1,0 +1,16 @@
+{
+  "opalBoardsAddons": {
+    "ehs": {
+      "fileName": "ehs.json",
+      "libName": "OpalBoardsAddOn_eHS",
+      "uuidList": [
+        "7c6d9e02-0590-44dd-b423-b1db624dd6d2"
+      ]
+    }
+  },
+  "efpgasimVersion": "v2.20.1.RC1",
+  "edbsimVersion": "4.2.0",
+  "schematicEditorVersion": "v3.0.0",
+  "firmwareName": "TE0741_4-EX-0001-3_5_0_817-eHSx128_Gen4_Machines_IOConfig2-3C-17",
+  "mUuid": "dcc3e3c1-4c4f-4d46-bd6f-580a8aaa9475"
+}

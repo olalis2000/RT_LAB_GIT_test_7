@@ -1,0 +1,188 @@
+
+-------------------- Starting compilation --------------------
+Start at : Wednesday, October 30, 2024, 12:16:09
+
+The current RT-LAB version is:  v2024.3.2.48
+The current model is:           C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\Boost_and_Two_Level_Inverter.slx
+The current host platform is:   Windows
+The current target platform is: OPAL-RT Linux (x64-based)
+The current compiler is:        Automatic
+The target OS version is:       OPAL-RTLinux 3.5.4 (4.19.80-opalrtlinux)
+Separating model because it has never been built
+Preparing original model for code separation and generation...
+The current Matlab version is:  v9.11 (64 Bit) (R2021B)
+
+
+RtlabInfo not loaded
+Separating RT-LAB model (number of RT subsystems = 1, console detected).
+Separating RT-LAB subsystem 'SM_eHS'.
+Separating RT-LAB subsystem 'SC_eHS'.
+
+Model preparation and separation duration : 00h:01m:02s
+-------------------- Completed successfully --------------------
+
+Generating model because setting 'platform' has changed.
+
+-------------------- Generating C code --------------------
+
+Using System Target File (TLC file) : rtlab_rtmodel.tlc...
+
+Using Template Makefile (TMF file) : rtlab_rtmodel.tmf...
+
+-------------------- Generating boost_and_two_level__1_sm_ehs C code --------------------
+Calling RTW Make Command make_rtw...
+### Starting build procedure for: boost_and_two_level__1_sm_ehs
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level__1_sm_ehs_rtlab
+Warning: Could not copy FSD file 
+
+### Invoking Target Language Compiler on boost_and_two_level__1_sm_ehs.rtw
+### Using System Target File: C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\rtlab_rtmodel.tlc
+        ### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+...
+### Caching model source code
+...............................................................................
+...................................................
+### Writing header file boost_and_two_level__1_sm_ehs_types.h
+### Writing header file boost_and_two_level__1_sm_ehs.h
+### Writing header file rtwtypes.h
+### Writing header file builtin_typeid_types.h
+### Writing header file multiword_types.h
+### Writing header file zero_crossing_types.h
+.
+### Writing source file boost_and_two_level__1_sm_ehs.c
+### Writing header file boost_and_two_level__1_sm_ehs_private.h
+### Writing header file rtmodel.h
+### Writing source file boost_and_two_level__1_sm_ehs_data.c
+### Writing header file rt_nonfinite.h
+### Writing source file rt_nonfinite.c
+.
+### Writing header file rt_defines.h
+### Writing header file rtGetInf.h
+### Writing source file rtGetInf.c
+### Writing header file rtGetNaN.h
+### Writing source file rtGetNaN.c
+### TLC code generation complete.
+..
+Version 9.6 (R2021b) 14-May-2021
+### Creating model mapping file boost_and_two_level__1_sm_ehs.map using opal_map_file.tlc
+..............................### Saving binary information cache.
+.
+### Processing Template Makefile: C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\rtlab_rtmodel.tmf
+### Created makefile C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level__1_sm_ehs_rtlab\boost_and_two_level__1_sm_ehs.mk
+### Successful completion of code generation for: boost_and_two_level__1_sm_ehs
+### Simulink cache artifacts for 'boost_and_two_level__1_sm_ehs' were created in 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level__1_sm_ehs.slxc'.
+
+Build Summary
+
+Top model targets built:
+
+Model                          Action          Rebuild Reason                                    
+=================================================================================================
+boost_and_two_level__1_sm_ehs  Code generated  Code generation information file does not exist.  
+
+1 of 1 models built (0 models already up to date)
+Build duration: 0h 0m 16.941s
+
+
+boost_and_two_level__1_sm_ehs : Generating C code duration : 00h:00m:25s
+Generating C code total duration : 00h:00m:25s
+
+-------------------- Completed successfully --------------------
+
+-------------------- Creating the parameter database --------------------
+Parameter(s) with more than 1000 values will be disabled. 
+Use PARAM_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+Parameter database creation duration: 00h:00m:00s
+-------------------- Parameter database created successfully --------------------
+
+-------------------- Creating the signals database --------------------
+Signal(s) with more than 1000 values will be disabled.
+Use SIGNALS_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+
+Signal database creation duration: 00h:00m:00s
+-------------------- Signal database created successfully --------------------
+Generating simulation data...
+Data generated in 00h:00m:00s
+
+Closing Matlab... OK.
+Creating DataLoggers...
+ - SM_eHS... OK
+Updating dependencies... OK.
+Compiling model because setting 'platform' has changed.
+
+-------------------- Validating sources files --------------------------
+
+-------------------- Done validating source files ----------------------
+
+
+
+-------------------- Transferring the generated C code --------------------
+
+Connecting to 10.168.11.81 ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink/rtw/c/common/linux64.opt ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink/rtw/c/common/posix.rules ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\settings.json (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs*.c (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtGet*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtGet*.c (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\boost_and_two_level__1_sm_ehs.mk (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rt_*.c (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rt_*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\zero_crossing_types*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\builtin_typeid_types*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\multiword_types*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtwtypes.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\rtmodel.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\drive_boost_and_two_level__1_sm_ehs*.c (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\drive_boost_and_two_level__1_sm_ehs*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\Opal*.c (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\OpREDHAWK64target\ssc_ml_fun*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\slprj\rtlab_rtmodel\_sharedutils\*.c (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\slprj\rtlab_rtmodel\_sharedutils\*.h (SM_eHS) ... OK.
+Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_7\models\Boost_and_Two_Level_Inverter\boost_and_two_level_inverter_sm_ehs\slprj\rtlab_rtmodel\_sharedutils\*.mk (SM_eHS) ... OK.
+
+Transferring common RT-LAB files:
+Transferring in ascii: C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\model_main.c (SM_eHS) ... OK.
+
+Transferring user extra files:
+
+File transfer duration : 00h:00m:01s
+-------------------- Completed successfully --------------------
+
+-------------------- Building the generated C code --------------------
+
+Executing script /usr/opalrt/v2024.3.2.48/common/python/rtlab/global/target_precompile.py ... done
+Removing relative includes from ./../boost_and_two_level_inverter_sm_ehs/model_main.c ...
+Done
+Executing script /usr/opalrt/v2024.3.2.48/common/python/rtlab/global/target_subsys_precompile.py ... done
+
+-------------------- Building boost_and_two_level__1_sm_ehs --------------------
+
+rm -f boost_and_two_level__1_sm_ehs
+### Linking ...
+g++  -Wl,-rpath='/usr/opalrt/v2024.3.2.48/common/bin' -Wl,'-rpath=/usr/opalrt/v2024.3.2.48/common/bin/x64' -L. -L/usr/opalrt/v2024.3.2.48/RT-LAB/lib -L/usr/opalrt/v2024.3.2.48/common/lib -L/usr/opalrt/v2024.3.2.48/common/lib/redhawk64 -L/usr/opalrt/v2024.3.2.48/common/bin -L/usr/opalrt/v2024.3.2.48/common/bin/x64 -L/usr/opalrt/externals/lib    -o boost_and_two_level__1_sm_ehs boost_and_two_level__1_sm_ehs.o boost_and_two_level__1_sm_ehs_data.o boost_and_two_level__1_sm_ehs_offsets.o model_main.o rtGetInf.o rtGetNaN.o rt_logging.o rt_nonfinite.o rt_printf.o rt_sim.o      -lRTLABSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib -lOpalSfunR2021B -lOpalR2021B -lBlocksRT-2021b -ldspR2021B -lsimscapeR2021B -lSimulinkRT-2021b -lOpalRTER2021B -lOpalCore -lLicenseLib -lSimulink -lSimulationUtilities -lInfrastructure  -lNetwork -lKLU -lNumeric -lFramework -lSystem -lMatio -luuid -lpthread -lRTLABSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib  -lOpalHttpLicenseRequest -lRapidJSON_Wrapper -lIntelPatch -lOpalUtils -lOpalAscii -lOpalComm -lOpalConfigFiles -lOpalCPU -lOpalEnv -lOpalFiles -lOpalList -lOpalMemLock -lOpalOSIdentification -lOpalPyTestUtils -lcommon-isolation -lpthread -lm -ldl -lutil -lrt -limf -lirc -lsvml      /usr/matlab/v9.11/rtw/c/libsrc/rtwlibr_redhawk64.a 
+chmod a+x boost_and_two_level__1_sm_ehs
+### Created executable: boost_and_two_level__1_sm_ehs
+
+boost_and_two_level__1_sm_ehs : Building subsystem duration : 00h:00m:02s
+
+Building model total duration : 00h:00m:02s
+-------------------- Completed successfully --------------------
+
+-------------------- Transferring the built model --------------------
+Connecting to 10.168.11.81 ... OK.
+Transferring in binary mode /home/desktop-pgc7bak/c/users/ortg/documents/files/rt_lab_git_test_7/models/boost_and_two_level_inverter/boost_and_two_level_inverter_sm_ehs/boost_and_two_level__1_sm_ehs ... OK.
+Transferring in ascii mode /home/desktop-pgc7bak/c/users/ortg/documents/files/rt_lab_git_test_7/models/boost_and_two_level_inverter/compilation_target_report.xml ... OK.
+
+File transfer duration : 00h:00m:00s
+-------------------- Completed successfully --------------------
+
+End at : Wednesday, October 30, 2024, 12:18:19
+
+Compilation duration : 00h:02m:10s
+
+Updating status for next build...OK

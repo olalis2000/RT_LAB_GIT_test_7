@@ -1,0 +1,75 @@
+{
+  "autoconnections": [
+    {
+      "syncExchangerType": "OpalBoards_GUI",
+      "fromModelToExchanger": [
+        {
+          "exchangerDatapoint": "eHS_AddOn/parameter_set_id",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_parameter_set_id"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/user_reset_cmd",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_user_reset_cmd"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/arm1_g1",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_arm1_g1"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/fault_sw",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_fault_sw"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/vin",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_vin"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/vsrc1",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_vsrc1"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/vsrc2",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_vsrc2"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/vsrc3",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpOutput_vsrc3"
+        }
+      ],
+      "fromExchangerToModel": [
+        {
+          "exchangerDatapoint": "eHS_AddOn/2Lvl_Ia",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Ia"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/2Lvl_Ib",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Ib"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/2Lvl_Ic",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Ic"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/2Lvl_Va",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Va"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/2Lvl_Vb",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Vb"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/2Lvl_Vc",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_2Lvl_Vc"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/boost_I",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_boost_I"
+        },
+        {
+          "exchangerDatapoint": "eHS_AddOn/boost_V",
+          "modelDatapoint": "SM_eHS/eHS1/eHSDrivers/OpInput_boost_V"
+        }
+      ]
+    }
+  ]
+}

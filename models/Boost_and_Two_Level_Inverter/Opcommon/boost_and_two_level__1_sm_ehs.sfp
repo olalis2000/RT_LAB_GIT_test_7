@@ -1,0 +1,4 @@
+[S-Function list]
+boost_and_two_level__1_sm_ehs/SM_eHS/Acquisition Trigger/OpTrigger=0
+boost_and_two_level__1_sm_ehs/SM_eHS/OpComm/Receive/S-Function=0
+boost_and_two_level__1_sm_ehs/SM_eHS/rtlab_send_subsystem/Subsystem1/Send1/S-Function=0
